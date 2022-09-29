@@ -1,0 +1,14 @@
+Import Base64
+	https://developer.spotify.com/documentation/general/guides/authorization/client-credentials/
+
+The spotify credentials are gotten by making a spotify application in order to access the spotify API. 
+
+In the first function, i get use the credentials to access the API. The data comes in a JSON file that I can extract values from.
+
+
+In the second function, I use a webscrapper from the Hot billboard music website.
+
+
+In the third function, I used the Spotify API, but i had to first get authorization, which as you can see on the website by using POST token request.
+With the token you can access the Spotify API, by using it to send a query for a particular song. This data is in JSON format. Which i then extract values from
+
